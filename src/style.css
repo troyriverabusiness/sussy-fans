@@ -13,61 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Cookie Banner */
-.cookie-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    padding: 12px 24px;
-    background-color: #1a1a1a;
-    color: #fff;
-    font-size: 14px;
-    flex-wrap: wrap;
-}
-
-.cookie-banner svg {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
-}
-
-.cookie-banner a {
-    color: #00aeef;
-    text-decoration: none;
-}
-
-.cookie-banner a:hover {
-    text-decoration: underline;
-}
-
-.cookie-btn {
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: opacity 0.2s;
-}
-
-.cookie-btn.outline {
-    background: transparent;
-    border: 1px solid #00aeef;
-    color: #00aeef;
-}
-
-.cookie-btn.filled {
-    background: #00aeef;
-    border: 1px solid #00aeef;
-    color: #fff;
-}
-
-.cookie-btn:hover {
-    opacity: 0.85;
-}
-
 /* Main Layout */
 .main-container {
     display: flex;
